@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gradiente em CSS</title>
+</head>
+<body>
+    <style>
+        *{
+            height: 100%;
+        }
+        body
+        {
+            /*o 45deg quer dizer o angulo que o gradiente vai fazer , podemos usar 90deg -45deg  etc....*/
+            /*Linear gradiente */
+            background-image: linear-gradient(45deg, blue, red, green ); 
+
+            /*radial gradiente      em vez de usar o angulo colocamos o circle*/
+            /*podemos usar a porcentagem para falar queu aquela cor ira ocupar % do gradiente*/
+            background-image:radial-gradient(circle ,#5B53D5 20%,#8533C1 , #B52BBB , #E1299A , #FA2787 %20, #FB635D, #FEB159  );
+
+        }
+    </style>
+    <H1>Testando gradiente</H1>
+</body>
+</html>
