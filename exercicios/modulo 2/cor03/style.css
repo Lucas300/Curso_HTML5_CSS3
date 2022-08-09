@@ -25,3 +25,14 @@ h1{
 h2{
     color: #125189;
 }
+textarea{
+    height: 100px;
+    width: 340px;
+    color: blue;
+}
+button{
+    width: 100px;
+    height: 30px;
+    color: #cb7b0b;
+    background-color: #f2c3a7;
+}
